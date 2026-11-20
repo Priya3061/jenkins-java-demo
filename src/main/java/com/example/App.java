@@ -1,11 +1,11 @@
 package com.example;
 
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+public class App {
+    public static int add(int a, int b) {
+        return a + b;
+    }
 
-public class AppTest {
-    @Test
-    public void testAdd() {
-        assertEquals(5, App.add(2, 3));
+    public static void main(String[] args) {
+        System.out.println("Result: " + add(5, 3));
     }
 }
